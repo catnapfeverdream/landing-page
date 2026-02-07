@@ -22,8 +22,11 @@ button {
     background-color: #3882f6;
     color: #f9faf8;
     border: 0;
-    padding: 10px 20px;
+    padding: 10px 25px;
     border-radius: 8px;
+    width: 120px;
+    font-size: 18px;
+    font-weight: 800px;
 }
 
 h1 {
@@ -37,18 +40,29 @@ h2 {
     font-size: 36px;
     font-weight: 900;
     text-align: center;
+    margin: 50px;
 }
 
-p, ul {
+h3 {
+    margin: 3px 0px;
+}
+
+p, ul, .sign-up {
     color: #e5e7eb;
     font-size: 18px;
+}
+
+img {
+    flex-shrink: 0;
+    border-radius: 7px;
 }
 
 header, .footer {
     display: flex;
     background-color: #1f2937;
     justify-content: space-between;
-    padding: 25px 100px;
+    align-items: baseline;
+    padding: 15px 150px;
 }
 
 .footer {
@@ -59,7 +73,7 @@ header, .footer {
 
 .header-ext {
     background-color: #1f2937;
-    padding: 0px 100px;
+    padding: 85px 150px 100px;
     display: flex;
 }
 
@@ -76,16 +90,36 @@ header, .footer {
 .contain-call {
     background-color: #3882f6;
     display: flex;
+    flex: 1;
     color: #f9faf8;
+    margin: 75px 150px;
+    min-height: 100px;
+    border-radius: 7px;
+    padding: 25px 50px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .contain-quote {
     display: flex;
     background-color: #e5e7eb;
+    padding: 100px 300px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thor {
+    align-self: flex-end;
 }
 
 .quote {
     font-size: 36px;
     color: #1f2937;
     font-weight: 300;
+}
+
+.button2 {
+    border-radius: 8px;
+    border: 2px solid #f9faf8;
 }
